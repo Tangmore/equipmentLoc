@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'BigruixianBlackGBV';
+  src: url('../assets/font/rzrxnfhj.TTF')  format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceHanSansCN-Bold';
+  src: url('../assets/font/SourceHanSansCN-Bold.otf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceHanSansCN-Light';
+  src: url('../assets/font/SourceHanSansCN-Light.otf')  format('truetype');
+}

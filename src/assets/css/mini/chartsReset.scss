@@ -1,0 +1,180 @@
+.main {
+    width: 100%;
+    height: 100%;  
+    position: relative; 
+    overflow: hidden;  
+    .topM{
+      background-color: rgba(255,255,255,.2) !important;
+    }
+    .content {
+      margin: 0 auto;
+      margin-top: 50px;
+      width: calc(100% - 20px);
+      height: calc(100% - 60px);   
+      overflow-y: scroll !important;    
+      overflow-x: hidden;    
+      &::-webkit-scrollbar { 
+          display: none; 
+      }
+      /*能耗统计*/
+      .energyCharts{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1; 
+        box-sizing: border-box; 
+        .search{
+          width: 100%;
+          height: 80px;
+          display: flex;
+          flex-wrap: wrap;
+          .item{
+            width: 100%;
+            height: 0.4rem;
+            display: flex;
+            align-items: center;
+            span{
+              font-size: 0.16rem;
+              color: #ffffff;
+              width: 80px;
+            }
+            .condition{
+              width: auto;
+              height: 0.4rem; 
+              align-items: center; 
+              display: inline-block;
+              .radio{
+                width: auto; 
+                display: inline-block; 
+                color: #ffffff;
+                font-size: 0.16rem;
+                margin-right: 0.12rem;
+                margin-top: 0.12rem;
+                padding-left: 4px;
+                cursor: pointer; 
+                box-sizing: border-box;
+                div{
+                  width: 0.15rem;
+                  height: 0.15rem;
+                  display: inline-block;
+                  border:1px solid #ffffff; 
+                  border-radius: 50%;
+                }
+
+                .lengji{
+                  background: #7cb5ec;
+                }
+                .kongtiao{
+                  background: #434348;
+                }
+                .zhaoming{
+                  background: #90ed7d;
+                }
+                .shuibeng{
+                  background: #f7a35c;
+                }
+                .dianti{
+                  background: #8085e9;
+                }
+                .menjin{
+                  background: #f15c80;
+                }
+                .jiankong{
+                  background: #e4d354;
+                }
+                .xianshiping{
+                  background: #2b908f;
+                }
+                .shuibiao{
+                  background: #91e8e1;
+                }
+              }
+              >>>.el-radio.is-bordered{
+                padding: 4px;  
+                border-radius: 4px;
+                border: none;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                height: auto;
+              }
+              >>>.el-radio__label{
+                font-size: 0.16rem;
+                padding-left: 6px;
+              }
+              .active{
+                border:none;
+                border-radius: 3px;
+              }
+            }
+          }
+        } 
+      } 
+      /*设备管理*/
+      .section{
+        width: 100%;
+        height: 100%;  
+        overflow-y: scroll !important;    
+        overflow-x: hidden;    
+         &::-webkit-scrollbar { 
+            display: none; 
+         } 
+        .item {
+         width: 100%;
+         height: auto;
+         display: flex; 
+         box-sizing: border-box;
+   
+         .con {
+           width: 100%;
+           height: auto;
+           box-sizing: border-box;
+   
+           .headLine {
+             width: 100%;
+             height: 0.48rem;
+             border: 0.01rem solid #31467D;
+             box-sizing: border-box;
+             box-shadow: 0 0 0.24rem rgba(37, 127, 190, 0.4) inset;
+             display: flex;
+             align-items: center;
+             padding: 0 0.15rem;
+             justify-content: space-between;
+   
+             .title {
+               width: auto;
+               height: 100%;
+               display: flex;
+               font-size: 0.18rem;
+               color: #65C6E7;
+               align-items: center; 
+             } 
+           }
+   
+           .consumptions { 
+             width: 100%; 
+             height: auto;
+             margin-top: 0.1rem;  
+             .echarts {
+              //  height: 100%;
+               display: flex;
+               width: 100%;
+               flex-direction: column; 
+               .canvas {
+                 display: flex;
+                 width: 100%;
+                 height: calc(100% - 0.3rem); 
+               }
+             }
+           }  
+         }
+       } 
+    }
+       
+    }
+}
+  
+   

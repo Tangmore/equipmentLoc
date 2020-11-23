@@ -1,0 +1,207 @@
+.main {
+  width: 100%;
+  height: 100%; 
+  .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden; 
+    flex-direction: column; 
+    .topM{
+      background-color: rgba(255,255,255,.2);
+    }
+    .search-box{
+      .date{
+        background: transparent;
+        outline: none; 
+        border: none;
+        border: 1px solid #144470;
+        color: rgba(255,255,255,.9);
+        height: 28px;
+        line-height: 28px; 
+        border-radius: 4px;
+      } 
+      .date-line{
+        width:10px;
+        color:#fff;  
+      }
+    }
+    .contentList{ 
+        margin:0  auto;
+        margin-top: 50px; 
+        width: 90%;
+        height: calc(100% - 100px);
+        overflow: scroll; 
+        &::-webkit-scrollbar {
+          display: none;
+        }  
+        .box-card {
+            width: 100%;
+            height: auto;
+            min-height: 2rem; 
+            display: flex;
+            flex-direction: row;
+            margin-top: 0.2rem; 
+            border: 1px solid rgba(255,255,255,.2);
+            border-radius: 4px;
+            margin-top: 10px; 
+            box-sizing: border-box;
+            color: #fff;
+            font-size: 0.18rem;
+            position: relative;
+            .select-box{
+              width: 10%;
+               display: flex; 
+               flex-direction: row;
+               justify-content: center;
+               align-items: center; 
+              .xuanz{
+                color: #f00;
+              }
+            }
+            .no-select-box{
+              width: 5%;
+            }
+            .con-item{
+                width: auto; 
+                padding: 10px 4px; 
+                display: flex; 
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;   
+                div{
+                    min-height: 24px;
+                    color: rgba(255,255,255,.9); 
+                    span{
+                      color: #fff;
+                        font-weight: 600;
+                        width: 80px;
+                        text-align:justify;
+                        text-align-last:justify;
+                        display:inline-block; 
+                    } 
+                    i{
+                      font-style: normal;
+                    } 
+                    .icon{
+                      font-size: 0.26rem;
+                      position: absolute;
+                      top: 4px;
+                      right: 4px;
+                    } 
+                }
+                .textmore{
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  display: -webkit-box;
+                  -webkit-box-orient: vertical;
+                  -webkit-line-clamp: 2;
+                }  
+            }
+            // 给排水控制
+            .con-item-water{
+              width: 50%; 
+            }
+            .opt-water{
+                width: 45%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #fff;
+                i{
+                  color: #000;
+                  font-size: 0.5rem;
+                }
+                .icon-rotate{
+                   animation: water-rotate 1s infinite; 
+                }
+                @keyframes water-rotate {
+                  0%{
+                    transform: rotate(0deg);
+                  }
+                  25%{
+                    transform: rotate(90deg);
+                  }
+                  50%{
+                    transform: rotate(180deg);
+                  }
+                  75%{
+                    transform: rotate(270deg);
+                  }
+                  100%{
+                    transform: rotate(360deg);
+                  }
+                }
+          }  
+        }
+        .no-data{  
+          font-size: 0.18rem;
+          color: rgba(255,255,255,.6);
+          margin: 200px auto;
+          text-align: center;
+        }
+        >>>.el-form-item{
+          margin-bottom: 6px;
+        }
+        >>>.el-form-item__label{
+            color: rgba(255,255,255,.9);
+        }
+        >>>.el-form-item__label,
+        >>>.el-input__inner{
+            font-size: 0.16rem;
+        }   
+        >>>.el-picker-panel{
+          width: 200px;
+          height: 200px;
+        }  
+    } 
+    .footer{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      z-index: 99;
+      width: 100%;
+      height: 40px;    
+      display: flex;
+      flex-direction: row; 
+      justify-content: space-around;
+      align-items: center;
+      letter-spacing: 10px;  
+      div{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        color: #FFFFFF;
+        justify-content: space-around;
+        align-items: center;
+      }
+      #add{  
+        background: rgba(37, 127, 190, 0.3);
+      }
+      #delete{ 
+        background: rgba(240, 182, 192, 0.4); 
+      }
+      #save{  
+        background: rgba(240, 182, 192, 0.4); 
+      }
+      #cancel{ 
+        background-color: rgba(255,255,255,.2);
+      }
+    }
+  }
+}
+.colorRed {
+  color: #cd3c3e;
+} 
+.colorYellow {
+  color: #ff9839;
+}
+.colorGreen {
+  color: #82edc0;
+}
+.colorGray {
+  color: #ccc;
+}
+
+ 

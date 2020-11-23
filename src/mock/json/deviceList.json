@@ -1,0 +1,1901 @@
+{
+  "result": "success",
+  "data":[
+    {
+      "id": "001",
+      "name": "1#主机",
+      "type": "kongtiao",
+      "typeName": "空调",
+      "typeCode": "iconkongtiao",
+      "location":{"X":"35.81210","Y":"66.64603"},
+      "note": "暖通空调1#主机",
+      "state": 0,
+      "wState": 0,
+      "Gtemp": "36℃",
+      "Jtemp": "36℃",
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "2#主机",
+      "type": "kongtiao",
+      "typeName": "空调",
+      "typeCode": "iconkongtiao",
+      "location":{"X":"43.81210","Y":"53.64603"},
+      "note": "暖通空调2#主机",
+      "state": 1,
+      "wState": 1,
+      "Gtemp": "36℃",
+      "Jtemp": "31℃",
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "3#主机",
+      "type": "kongtiao",
+      "typeName": "空调",
+      "typeCode": "iconkongtiao",
+      "location":{"X":"51.81210","Y":"54.64603"},
+      "note": "暖通空调3#主机",
+      "state": 1,
+      "wState": 1,
+      "Gtemp": "30℃",
+      "Jtemp": "25℃",
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "4#主机",
+      "type": "kongtiao",
+      "typeName": "空调",
+      "typeCode": "iconkongtiao",
+      "location":{"X":"47","Y":"42"},
+      "note": "暖通空调4#主机",
+      "state": 2,
+      "wState": 3,
+      "Gtemp": "32℃",
+      "Jtemp": "29℃",
+      "level": 1
+    },
+    {
+      "id": "005",
+      "name": "5#主机",
+      "type": "kongtiao",
+      "typeName": "空调",
+      "typeCode": "iconkongtiao",
+      "location":{"X":"56","Y":"44"},
+      "note": "暖通空调5#主机",
+      "state":2,
+      "wState": 3,
+      "Gtemp": "18℃",
+      "Jtemp": "25℃",
+      "level": 1
+    },
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "AHU-1F-1",
+      "type": "lengji",
+      "typeName": "冷机",
+      "typeCode": "iconlengji",
+      "location":{"X":"61.81210","Y":"56.64603"},
+      "note": "暖通空调#冷源-AHU-1F-1",
+      "state":1,
+      "wState": 3,
+      "Gtemp": "23℃",
+      "Jtemp": "43℃",
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "AHU-1F-2",
+      "type": "lengji",
+      "typeName": "冷机",
+      "typeCode": "iconlengji",
+      "location":{"X":"43.81210","Y":"65.64603"},
+      "note": "暖通空调#冷源-AHU-1F-2",
+      "state":2,
+      "wState": 1,
+      "Gtemp": "20℃",
+      "Jtemp": "25℃",
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "AHU-1F-3",
+      "type": "lengji",
+      "typeName": "冷机",
+      "typeCode": "iconlengji",
+      "location":{"X":"52.81210","Y":"65.64603"},
+      "note": "暖通空调#冷源-AHU-1F-3",
+      "state":2,
+      "wState": 3,
+      "Gtemp": "54℃",
+      "Jtemp": "34℃",
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "AHU-1F-4",
+      "type": "lengji",
+      "typeName": "冷机",
+      "typeCode": "iconlengji",
+      "location":{"X":"46.81210","Y":"40.64603"},
+      "note": "暖通空调#冷源-AHU-1F-4",
+      "state":1,
+      "wState": 1,
+      "Gtemp": "34℃",
+      "Jtemp": "55℃",
+      "level": 1
+    },
+    {
+      "id": "005",
+      "name": "AHU-1F-5",
+      "type": "lengji",
+      "typeName": "冷机",
+      "typeCode": "iconlengji",
+      "location":{"X":"62","Y":"67"},
+      "note": "暖通空调#冷源-AHU-1F-5",
+      "state":2,
+      "wState": 0,
+      "Gtemp": "34℃",
+      "Jtemp": "55℃",
+      "level": 1
+    },
+
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "1#给排水",
+      "type": "jipaishui",
+      "typeName": "给排水",
+      "typeCode": "icongeipaishui",
+      "location":{"X":"32","Y":"40"},
+      "note": "给排水-1#",
+      "state":0,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "2#给排水",
+      "type": "jipaishui",
+      "typeName": "给排水",
+      "typeCode": "icongeipaishui",
+      "location":{"X":"40","Y":"57"},
+      "note": "给排水-2#",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "3#给排水",
+      "type": "jipaishui",
+      "typeName": "给排水",
+      "typeCode": "icongeipaishui",
+      "location":{"X":"65","Y":"60"},
+      "note": "给排水-3#",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "4#给排水",
+      "type": "jipaishui",
+      "typeName": "给排水",
+      "typeCode": "icongeipaishui",
+      "location":{"X":"62","Y":"67"},
+      "note": "给排水-4#",
+      "state":2,
+      "wState": 3,
+      "level": 1
+    },
+
+
+
+
+
+    {
+      "id": "005",
+      "name": "AH-05",
+      "type": "bianpeidian",
+      "typeName": "变配电",
+      "typeCode": "iconbianpeidian",
+      "location":{"X":"45","Y":"40"},
+      "note": "变配电AH-05",
+      "state":0,
+      "wState": 1,
+      "electricCurrent": 12.5,
+      "Voltage": 220,
+      "level": 1
+    },
+    {
+      "id": "001",
+      "name": "AH-01",
+      "type": "bianpeidian",
+      "typeName": "变配电",
+      "typeCode": "iconbianpeidian",
+      "location":{"X":"56","Y":"32"},
+      "note": "变配电AH-01",
+      "state":1,
+      "wState": 0,
+      "electricCurrent": 12.5,
+      "Voltage": 220,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "AH-02",
+      "type": "bianpeidian",
+      "typeName": "变配电",
+      "typeCode": "iconbianpeidian",
+      "location":{"X":"32","Y":"48"},
+      "note": "变配电AH-02",
+      "state":2,
+      "wState":1,
+      "electricCurrent": 12.5,
+      "Voltage": 220,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "AH-03",
+      "type": "bianpeidian",
+      "typeName": "变配电",
+      "typeCode": "iconbianpeidian",
+      "location":{"X":"60","Y":"65"},
+      "note": "变配电AH-03",
+      "state":2,
+      "wState":1,
+      "electricCurrent": 12.5,
+      "Voltage": 220,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "AH-04",
+      "type": "bianpeidian",
+      "typeName": "变配电",
+      "typeCode": "iconbianpeidian",
+      "location":{"X":"30","Y":"51"},
+      "note": "变配电AH-04",
+      "state":1,
+      "wState": 3,
+      "electricCurrent": 12.5,
+      "Voltage": 220,
+      "level": 1
+    },
+
+
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "Q-1F-01",
+      "type": "jiankong",
+      "typeName": "视频监控",
+      "typeCode": "iconshipinjiankong",
+      "location":{"X":"45","Y":"40"},
+      "note": "视频监控Q-1F-01",
+      "state":0,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "Q-1F-02",
+      "type": "jiankong",
+      "typeName": "视频监控",
+      "typeCode": "iconshipinjiankong",
+      "location":{"X":"65","Y":"63"},
+      "note": "视频监控-Q-1F-02",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "Q-1F-03",
+      "type": "jiankong",
+      "typeName": "视频监控",
+      "typeCode": "iconshipinjiankong",
+      "location":{"X":"40","Y":"30"},
+      "note": "视频监控-Q-1F-03",
+      "state":2,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "Q-1F-04",
+      "type": "jiankong",
+      "typeName": "视频监控",
+      "typeCode": "iconshipinjiankong",
+      "location":{"X":"30","Y":"63"},
+      "note": "视频监控-Q-1F-04",
+      "state":2,
+      "wState": 3,
+      "level": 1
+    },
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "Q-1F-01",
+      "type": "fangdao",
+      "typeName": "防盗系统",
+      "typeCode": "iconjingcha",
+      "location":{"X":"30","Y":"63"},
+      "note": "防盗系统-Q-1F-01",
+      "state":0,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "Q-1F-02",
+      "type": "fangdao",
+      "typeName": "防盗系统",
+      "typeCode": "iconjingcha",
+      "location":{"X":"40","Y":"40"},
+      "note": "防盗系统-Q-1F-02",
+      "state":1,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "Q-1F-03",
+      "type": "fangdao",
+      "typeName": "防盗系统",
+      "typeCode": "iconjingcha",
+      "location":{"X":"60","Y":"60"},
+      "note": "防盗系统-Q-1F-03",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "Q-1F-04",
+      "type": "fangdao",
+      "typeName": "防盗系统",
+      "typeCode": "iconjingcha",
+      "location":{"X":"38","Y":"60"},
+      "note": "防盗系统-Q-1F-04",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "005",
+      "name": "Q-1F-05",
+      "type": "fangdao",
+      "typeName": "防盗系统",
+      "typeCode": "iconjingcha",
+      "location":{"X":"50","Y":"65"},
+      "note": "防盗系统-Q-1F-05",
+      "state":2,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "006",
+      "name": "Q-1F-06",
+      "type": "fangdao",
+      "typeName": "防盗系统",
+      "typeCode": "iconjingcha",
+      "location":{"X":"56","Y":"36"},
+      "note": "防盗系统-Q-1F-06",
+      "state":1,
+      "wState": 3,
+      "level": 2
+    },
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "M-1F-01",
+      "type": "menjin",
+      "typeName": "门禁",
+      "typeCode": "iconmenjinxitong",
+      "location":{"X":"36","Y":"66.5"},
+      "note": "门禁-M-1F-01",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "M-1F-02",
+      "type": "menjin",
+      "typeName": "门禁",
+      "typeCode": "iconmenjinxitong",
+      "location":{"X":"44","Y":"66.5"},
+      "note": "门禁-M-1F-02",
+      "state":0,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "M-1F-03",
+      "type": "menjin",
+      "typeName": "门禁",
+      "typeCode": "iconmenjinxitong",
+      "location":{"X":"52","Y":"66.5"},
+      "note": "门禁-M-1F-03",
+      "state":2,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "M-1F-04",
+      "type": "menjin",
+      "typeName": "门禁",
+      "typeCode": "iconmenjinxitong",
+      "location":{"X":"62","Y":"66.5"},
+      "note": "门禁-M-1F-04",
+      "state":1,
+      "wState": 3,
+      "level": 1
+    },
+    {
+      "id": "007",
+      "name": "M-1F-07",
+      "type": "menjin",
+      "typeName": "门禁",
+      "typeCode": "iconmenjinxitong",
+      "location":{"X":"44","Y":"54"},
+      "note": "门禁-M-1F-07",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "005",
+      "name": "M-2F-05",
+      "type": "menjin",
+      "typeName": "门禁",
+      "typeCode": "iconmenjinxitong",
+      "location":{"X":"26","Y":"54"},
+      "note": "门禁-M-2F-05",
+      "state":1,
+      "wState": 1,
+      "level": 2
+    },
+    {
+      "id": "006",
+      "name": "M-2F-06",
+      "type": "menjin",
+      "typeName": "门禁",
+      "typeCode": "iconmenjinxitong",
+      "location":{"X":"36","Y":"54"},
+      "note": "门禁-M-2F-06",
+      "state":1,
+      "wState": 1,
+      "level": 2
+    },
+
+
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "巡更点-01",
+      "type": "dianzixungeng",
+      "typeName": "电子巡更",
+      "typeCode": "icondianzixungeng",
+      "location":{"X":"23","Y":"54"},
+      "note": "小区巡更点-01",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "巡更点-03",
+      "type": "dianzixungeng",
+      "typeName": "电子巡更",
+      "typeCode": "icondianzixungeng",
+      "location":{"X":"36","Y":"40"},
+      "note": "小区巡更点-03",
+      "state":0,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "巡更点-04",
+      "type": "dianzixungeng",
+      "typeName": "电子巡更",
+      "typeCode": "icondianzixungeng",
+      "location":{"X":"55","Y":"40"},
+      "note": "小区巡更点-04",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "005",
+      "name": "巡更点-05",
+      "type": "dianzixungeng",
+      "typeName": "电子巡更",
+      "typeCode": "icondianzixungeng",
+      "location":{"X":"62","Y":"50"},
+      "note": "小区巡更点-05",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "006",
+      "name": "巡更点-06",
+      "type": "dianzixungeng",
+      "typeName": "电子巡更",
+      "typeCode": "icondianzixungeng",
+      "location":{"X":"62","Y":"73"},
+      "note": "小区巡更点-06",
+      "state":1,
+      "wState":0,
+      "level": 1
+    },
+    {
+      "id": "007",
+      "name": "巡更点-07",
+      "type": "dianzixungeng",
+      "typeName": "电子巡更",
+      "typeCode": "icondianzixungeng",
+      "location":{"X":"50","Y":"73"},
+      "note": "小区巡更点-07",
+      "state":1,
+      "wState": 3,
+      "level": 1
+    },
+    {
+      "id": "008",
+      "name": "巡更点-08",
+      "type": "dianzixungeng",
+      "typeName": "电子巡更",
+      "typeCode": "icondianzixungeng",
+      "location":{"X":"36","Y":"73"},
+      "note": "小区巡更点-08",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "消防栓01",
+      "type": "xiaofangxitong",
+      "typeName": "消防系统",
+      "typeCode": "icongonganxiaofang",
+      "location":{"X":"36","Y":"43"},
+      "note": "A区侧门消防栓存放点",
+      "state":1,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "消防栓02",
+      "type": "xiaofangxitong",
+      "typeName": "消防系统",
+      "typeCode": "icongonganxiaofang",
+      "location":{"X":"52","Y":"47"},
+      "note": "A区后门消防栓存放点",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "消防栓03",
+      "type": "xiaofangxitong",
+      "typeName": "消防系统",
+      "typeCode": "icongonganxiaofang",
+      "location":{"X":"57","Y":"70"},
+      "note": "A区三栋四栋间消防栓存放点",
+      "state":2,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "消防栓05",
+      "type": "xiaofangxitong",
+      "typeName": "消防系统",
+      "typeCode": "icongonganxiaofang",
+      "location":{"X":"33","Y":"65"},
+      "note": "A区大门消防栓存放点",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "005",
+      "name": "消防栓05",
+      "type": "xiaofangxitong",
+      "typeName": "消防系统",
+      "typeCode": "icongonganxiaofang",
+      "location":{"X":"57","Y":"57"},
+      "note": "A区车库消防栓存放点",
+      "state":1,
+      "wState": 3,
+      "level": 1
+    },
+    {
+      "id": "006",
+      "name": "消防栓06",
+      "type": "xiaofangxitong",
+      "typeName": "消防系统",
+      "typeCode": "icongonganxiaofang",
+      "location":{"X":"47","Y":"57"},
+      "note": "A区7栋8栋消防栓存放点",
+      "state":1,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "007",
+      "name": "消防栓07",
+      "type": "xiaofangxitong",
+      "typeName": "消防系统",
+      "typeCode": "icongonganxiaofang",
+      "location":{"X":"27","Y":"57"},
+      "note": "A区5栋消防栓存放点",
+      "state":2,
+      "wState": 1,
+      "level": 1
+    },
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "公共照明01",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"39.5","Y":"69"},
+      "note": "A区1栋2栋间路灯",
+      "state":1,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "公共照明03",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"47.5","Y":"69"},
+      "note": "A区2栋3栋间路灯",
+      "state":0,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "公共照明03",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"57","Y":"69"},
+      "note": "A区3栋4栋间路灯",
+      "state":2,
+      "wState": 3,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "公共照明04",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"61","Y":"65"},
+      "note": "A区4栋9栋间路灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "005",
+      "name": "公共照明05",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"31","Y":"57"},
+      "note": "A区5栋6栋间路灯",
+      "state":1,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "006",
+      "name": "公共照明06",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"40","Y":"57"},
+      "note": "A区6栋7栋间路灯",
+      "state":0,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "007",
+      "name": "公共照明07",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"48","Y":"57"},
+      "note": "A区7栋8栋间路灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "008",
+      "name": "公共照明08",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"57","Y":"57"},
+      "note": "A区8栋9栋间路灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "009",
+      "name": "公共照明09",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"35.5","Y":"47"},
+      "note": "A区10栋11栋间路灯",
+      "state":2,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "010",
+      "name": "公共照明010",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"44","Y":"47"},
+      "note": "A区11栋12栋间路灯",
+      "state":1,
+      "wState": 3,
+      "level": 1
+    },
+    {
+      "id": "011",
+      "name": "公共照明011",
+      "type": "gonggongzhaoming",
+      "typeName": "公共照明",
+      "typeCode": "icondiandeng-dengpao-zhaoming",
+      "location":{"X":"52","Y":"47"},
+      "note": "A区12栋13栋间路灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "夜灯01",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"36","Y":"67"},
+      "note": "A区1栋楼顶灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "夜灯02",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"44","Y":"67"},
+      "note": "A区2栋楼顶灯",
+      "state":1,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "夜灯03",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"51.5","Y":"67"},
+      "note": "A区3栋楼顶灯",
+      "state":0,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "夜灯04",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"61.5","Y":"67"},
+      "note": "A区4栋楼顶灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "005",
+      "name": "夜灯05",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"27","Y":"54"},
+      "note": "A区5栋楼顶灯",
+      "state":2,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "006",
+      "name": "夜灯06",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"35","Y":"54"},
+      "note": "A区6栋楼顶灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "007",
+      "name": "夜灯07",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"43.5","Y":"54"},
+      "note": "A区7栋楼顶灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "008",
+      "name": "夜灯08",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"51","Y":"54"},
+      "note": "A区8栋楼顶灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "009",
+      "name": "夜灯09",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"60","Y":"54"},
+      "note": "A区9栋楼顶灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "010",
+      "name": "夜灯10",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"31","Y":"41"},
+      "note": "A区10栋楼顶灯",
+      "state":1,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "011",
+      "name": "夜灯11",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"40","Y":"41"},
+      "note": "A区11栋楼顶灯",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "012",
+      "name": "夜灯12",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"47","Y":"42"},
+      "note": "A区12栋楼顶灯",
+      "state":0,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "013",
+      "name": "夜灯13",
+      "type": "yejingzhaoming",
+      "typeName": "夜景",
+      "typeCode": "iconyedeng",
+      "location":{"X":"56","Y":"44"},
+      "note": "A区13栋楼顶灯",
+      "state":1,
+      "wState": 3,
+      "level": 1
+    },
+
+
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "电梯监控01",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"36","Y":"67"},
+      "note": "A区1栋电梯监控",
+      "state":1,
+      "wState": 3,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "电梯监控02",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"44","Y":"67"},
+      "note": "A区2栋电梯监控",
+      "state":1,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "电梯监控03",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"51.5","Y":"67"},
+      "note": "A区3栋电梯监控",
+      "state":0,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "电梯监控04",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"61.5","Y":"67"},
+      "note": "A区4栋电梯监控",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "005",
+      "name": "电梯监控05",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"27","Y":"54"},
+      "note": "A区5栋电梯监控",
+      "state":2,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "006",
+      "name": "电梯监控06",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"35","Y":"54"},
+      "note": "A区6栋电梯监控",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "007",
+      "name": "电梯监控07",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"43.5","Y":"54"},
+      "note": "A区7栋电梯监控",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "008",
+      "name": "电梯监控08",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"51","Y":"54"},
+      "note": "A区8栋电梯监控",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "009",
+      "name": "电梯监控09",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"60","Y":"54"},
+      "note": "A区9栋电梯监控",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "010",
+      "name": "电梯监控10",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"31","Y":"41"},
+      "note": "A区10栋电梯监控",
+      "state":1,
+      "wState": 0,
+      "level": 1
+    },
+    {
+      "id": "011",
+      "name": "电梯监控11",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"40","Y":"41"},
+      "note": "A区11栋电梯监控",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "012",
+      "name": "电梯监控12",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"47","Y":"42"},
+      "note": "A区12栋电梯监控",
+      "state":0,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "013",
+      "name": "电梯监控13",
+      "type": "diantijiankong",
+      "typeName": "电梯监控",
+      "typeCode": "icondianti",
+      "location":{"X":"56","Y":"44"},
+      "note": "A区13栋电梯监控",
+      "state":1,
+      "wState": 3,
+      "level": 1
+    },
+
+
+
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "1号客流统计器",
+      "type": "keliutongji",
+      "typeName": "客流统计",
+      "typeCode": "iconzongkeliuliang",
+      "location":{"X":"32","Y":"66"},
+      "note": "A区大门出入口客流统计",
+      "state":1,
+      "wState": 1,
+      "personNum": 523,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "2号客流统计器",
+      "type": "keliutongji",
+      "typeName": "客流统计",
+      "typeCode": "iconzongkeliuliang",
+      "location":{"X":"36","Y":"44"},
+      "note": "A区侧门出入口客流统计",
+      "state":1,
+      "wState": 1,
+      "personNum": 231,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "3号客流统计器",
+      "type": "keliutongji",
+      "typeName": "客流统计",
+      "typeCode": "iconzongkeliuliang",
+      "location":{"X":"52","Y":"44"},
+      "note": "A区后门出入口客流统计",
+      "state":1,
+      "wState": 1,
+      "personNum": 158,
+      "level": 1
+    },
+    {
+      "id": "004",
+      "name": "4号客流统计器",
+      "type": "keliutongji",
+      "typeName": "客流统计",
+      "typeCode": "iconzongkeliuliang",
+      "location":{"X":"56","Y":"60"},
+      "note": "A区车库出入口客流统计",
+      "state":1,
+      "wState": 1,
+      "personNum": 439,
+      "level": 1
+    },
+
+
+
+
+
+    {
+      "id": "001",
+      "name": "1号广播器",
+      "type": "beijingyinyue",
+      "typeName": "背景音乐",
+      "typeCode": "iconshengyin",
+      "location":{"X":"56","Y":"60"},
+      "note": "篮球场广播",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "002",
+      "name": "2号广播器",
+      "type": "beijingyinyue",
+      "typeName": "背景音乐",
+      "typeCode": "iconshengyin",
+      "location":{"X":"32","Y":"65"},
+      "note": "大门入口广播",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+    {
+      "id": "003",
+      "name": "3号广播器",
+      "type": "beijingyinyue",
+      "typeName": "背景音乐",
+      "typeCode": "iconshengyin",
+      "location":{"X":"52","Y":"45"},
+      "note": "幼儿园入口广播",
+      "state":1,
+      "wState": 1,
+      "level": 1
+    },
+
+
+
+
+    {
+      "id": "001",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"19.85","Y":"69"},
+      "note": "001",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "002",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"19.85","Y":"74"},
+      "note": "002",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 3
+    },
+    {
+      "id": "003",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"22.5","Y":"64"},
+      "note": "003",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "004",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"22.5","Y":"69"},
+      "note": "004",
+      "state":1,
+      "wState":3,
+      "level": 1,
+      "times": 18.3
+    },
+    {
+      "id": "005",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"22.5","Y":"74"},
+      "note": "005",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times":0
+    },
+    {
+      "id": "006",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"22.5","Y":"79"},
+      "note": "006",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "007",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"22.5","Y":"84"},
+      "note": "007",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "008",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"22.5","Y":"89"},
+      "note": "008",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "009",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"25.5","Y":"64"},
+      "note": "009",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "010",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"25.5","Y":"69"},
+      "note": "010",
+      "state":1,
+      "wState":3,
+      "level": 1,
+      "times":5
+    },
+    {
+      "id": "011",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"25.5","Y":"74"},
+      "note": "011",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "012",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"25.5","Y":"79"},
+      "note": "012",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times":0
+    },
+    {
+      "id": "013",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"25.5","Y":"84"},
+      "note": "013",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 36
+    },
+    {
+      "id": "014",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"25.5","Y":"89"},
+      "note": "014",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "015",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"28","Y":"89"},
+      "note": "015",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "016",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"28","Y":"84"},
+      "note": "016",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "017",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"30.5","Y":"89"},
+      "note": "017",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "018",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"30.5","Y":"84"},
+      "note": "018",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "019",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"33.5","Y":"89"},
+      "note": "019",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "020",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"33.5","Y":"84"},
+      "note": "020",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 1
+    },
+    {
+      "id": "021",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"36","Y":"89"},
+      "note": "021",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 23
+    },
+    {
+      "id": "022",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"36","Y":"84"},
+      "note": "022",
+      "state":1,
+      "wState": 0,
+      "level": 1,
+      "times": 2
+    },
+    {
+      "id": "023",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"39","Y":"89"},
+      "note": "023",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 15
+    },
+    {
+      "id": "024",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"39","Y":"89"},
+      "note": "024",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 54
+    },
+    {
+      "id": "025",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"39","Y":"84"},
+      "note": "025",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "026",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"39","Y":"79"},
+      "note": "026",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "027",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"39","Y":"74"},
+      "note": "027",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "028",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"39","Y":"69"},
+      "note": "028",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 9
+    },
+    {
+      "id": "029",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"39","Y":"64"},
+      "note": "029",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "030",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"41.5","Y":"64"},
+      "note": "030",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "031",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"41.5","Y":"69"},
+      "note": "031",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "032",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"41.5","Y":"74"},
+      "note": "032",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "033",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"41.5","Y":"79"},
+      "note": "033",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "034",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"41.5","Y":"84"},
+      "note": "034",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "035",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"41.5","Y":"89"},
+      "note": "035",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "036",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"44","Y":"64"},
+      "note": "036",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "037",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"44","Y":"69"},
+      "note": "037",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "038",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"44","Y":"74"},
+      "note": "038",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "039",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"44","Y":"79"},
+      "note": "039",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "040",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"44","Y":"84"},
+      "note": "040",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "041",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"44","Y":"89"},
+      "note": "041",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "042",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"47","Y":"74"},
+      "note": "042",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "043",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"47","Y":"79"},
+      "note": "043",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "044",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"47","Y":"84"},
+      "note": "044",
+      "state":1,
+      "wState": 3,
+      "level": 1,
+      "times": 12
+    },
+    {
+      "id": "045",
+      "name": "停车位",
+      "type": "tingchechang",
+      "typeName": "停车场",
+      "typeCode": "icontingchechang",
+      "location":{"X":"47","Y":"89"},
+      "note": "045",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+
+
+
+
+
+
+
+    {
+      "id": "046",
+      "name": "1#屏",
+      "type": "xinxifabu",
+      "typeName": "显示屏",
+      "typeCode": "icon5-xinxi",
+      "location":{"X":"35.81210","Y":"66.64603"},
+      "note": "046",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "047",
+      "name": "2#屏",
+      "type": "xinxifabu",
+      "typeName": "显示屏",
+      "typeCode": "icon5-xinxi",
+      "location":{"X":"56","Y":"44"},
+      "note": "047",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "048",
+      "name": "3#屏",
+      "type": "xinxifabu",
+      "typeName": "显示屏",
+      "typeCode": "icon5-xinxi",
+      "location":{"X":"57","Y":"52"},
+      "note": "048",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    },
+    {
+      "id": "049",
+      "name": "4#屏",
+      "type": "xinxifabu",
+      "typeName": "显示屏",
+      "typeCode": "icon5-xinxi",
+      "location":{"X":"47","Y":"42"},
+      "note": "049",
+      "state":1,
+      "wState": 1,
+      "level": 1,
+      "times": 0
+    }
+
+
+
+
+
+  ],
+  "msg": "变配电：bianpeidian；视频监控：jiankong;防盗系统：fangdao;门禁：menjin;电子巡更：dianzixungeng;消防系统：xiaofangxitong;公共照明：gonggongzhaoming;",
+  "msg1": "夜景：yejingzhaoming;电梯监控：diantijiankong;客流统计：keliutongji;停车场：tingchechang;背景音乐：beijingyinyue;信息发布：xinxifabu",
+  "msg2": "字段解释：level:楼层(用于切换上下层时的筛选条件)；times:停车时长",
+  "msg3": "state:用于开关控制按钮的判断（0：关，1：开，2：故障）；wState:用于设备的显示状态（0：设备下线，1：设备在线，3：设备故障）"
+}

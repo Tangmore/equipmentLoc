@@ -1,0 +1,213 @@
+.main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: url("~@/assets/img/bodybgi.png") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  .topMenu{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0 0.3rem;
+    //background: #061638;
+    background:url("~@/assets/images/topbgm.png") no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+    position: relative;
+    .company {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      height:0.4rem;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-top: 0.3rem;
+      h3{
+        color: #99d4ff;
+        font-size:0.3rem;
+        font-family: 'hyk2gj';
+        margin: 0;
+        padding: 0;
+      }
+      p{
+        color: #99d4ff;
+        font-size: 10px;
+        font-family: '\5FAE\8F6F\96C5\9ED1';
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  .navMenu{
+    width: 2rem;
+    height: calc(100% - 0.9rem);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+    .logo{
+      width: 50%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      padding: 0.2rem 0;
+      img{
+        width: 50%;
+        height: auto;
+      }
+    }
+    .li{
+      width: 1.3rem;
+      height: 0.4rem;
+      display: flex;
+      align-items: center;
+      background: url("~@/assets/images/nav-border.png") no-repeat;
+      background-size: 100% 100%;
+      margin-top: 0.2rem;
+      box-sizing: border-box;
+      color: #ffffff;
+      justify-content: center;
+      font-size: 0.14rem;
+      padding: 0 0.1rem;
+      cursor: pointer;
+      i{
+        font-size: 0.18rem;
+        color: #ffffff;
+      }
+      span{
+        padding-left: 0.1rem;
+        color: #cccbcb;
+      }
+    }
+    .li:hover{
+      background: url("~@/assets/images/nav-border-active.png") no-repeat;
+      background-size: 100% 100%;
+      span{
+        color: #ffffff;
+      }
+    }
+    .active{
+      background: url("~@/assets/images/nav-border-active.png") no-repeat;
+      background-size: 100% 100%;
+      span{
+        color: #ffffff;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0.1rem;
+    position: relative;
+  }
+}
+.page{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+@mixin bordertopleft($width) {
+  border-top:1px solid #218cd9;
+  border-left: 1px solid #218cd9;
+  width: $width;
+  height: $width;
+  position: absolute;
+  box-sizing: border-box;
+  left: -1px;
+  top:-1px;
+}
+@mixin bordertopright($width){
+  border-top:1px solid #218cd9;
+  border-right: 1px solid #218cd9;
+  width: $width;
+  height: $width;
+  position: absolute;
+  right: -1px;
+  top:-1px;
+  box-sizing: border-box;
+}
+@mixin borderbottomleft($width){
+  border-bottom:1px solid #218cd9;
+  border-left: 1px solid #218cd9;
+  width: $width;
+  height: $width;
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+  box-sizing: border-box;
+}
+@mixin borderbottomright($width){
+  border-bottom:1px solid #218cd9;
+  border-right: 1px solid #218cd9;
+  width: $width;
+  height: $width;
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  box-sizing: border-box;
+
+}
+
+
+@font-face {
+  font-family: 'BigruixianBlackGBV';
+  src: url('~@/assets/font/rzrxnfhj.eot');
+  src:
+    url('~@/assets/font/rzrxnfhj.eot?#font-spider') format('embedded-opentype'),
+    url('~@/assets/font/rzrxnfhj.woff2') format('woff2'),
+    url('~@/assets/font/rzrxnfhj.woff') format('woff'),
+    url('~@/assets/font/rzrxnfhj.ttf') format('truetype'),
+    url('~@/assets/font/rzrxnfhj.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceHanSansCN-Bold';
+  src: url('~@/assets/font/SourceHanSansCN-Bold.eot');
+  src:
+    url('~@/assets/font/SourceHanSansCN-Bold.eot?#font-spider') format('embedded-opentype'),
+    url('~@/assets/font/SourceHanSansCN-Bold.woff2') format('woff2'),
+    url('~@/assets/font/SourceHanSansCN-Bold.woff') format('woff'),
+    url('~@/assets/font/SourceHanSansCN-Bold.ttf') format('truetype'),
+    url('~@/assets/font/SourceHanSansCN-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceHanSansCN-Light';
+  src: url('~@/assets/font/SourceHanSansCN-Light.eot');
+  src:
+    url('~@/assets/font/SourceHanSansCN-Light.eot?#font-spider') format('embedded-opentype'),
+    url('~@/assets/font/SourceHanSansCN-Light.woff2') format('woff2'),
+    url('~@/assets/font/SourceHanSansCN-Light.woff') format('woff'),
+    url('~@/assets/font/SourceHanSansCN-Light.ttf') format('truetype'),
+    url('~@/assets/font/SourceHanSansCN-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.cloorRed{
+  color: #ee4032;
+}
+.cloorGreen{
+  color: #0dbf1b;
+}
+.cloorGrey{
+  color: #a4a9a4;
+}
